@@ -1,0 +1,7 @@
+#Write a program to merge two tuples.
+l=('Bus','Cup','Black')
+k=(' ticket',' saucer',' board')
+m=([str(l)+str(k) for l,k in zip(l,k)])
+print(m)
+output:
+['Bus ticket', 'Cup saucer', 'Black board']
